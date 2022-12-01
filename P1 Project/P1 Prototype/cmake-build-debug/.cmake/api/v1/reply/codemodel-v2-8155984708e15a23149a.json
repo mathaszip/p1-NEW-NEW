@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "P1_Prototype",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Emils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Emils-Debug-e4d2818af79ce609d464.json",
+					"name" : "Emils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mathias::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mathias-Debug-644ba5bc2f2035ff23ea.json",
+					"name" : "Mathias",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mathias2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mathias2-Debug-0f0fd8fff53cfd5278c9.json",
+					"name" : "Mathias2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "K:/Aalborg-University---Projects/P1 Project/P1 Prototype/cmake-build-debug",
+		"source" : "K:/Aalborg-University---Projects/P1 Project/P1 Prototype"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

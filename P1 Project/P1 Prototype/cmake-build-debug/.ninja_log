@@ -1,0 +1,18 @@
+# ninja log v5
+100	182	6904334825399817	P1_Prototype.exe	b762a9e178c202ed
+1	27	1669364805868984348	CMakeFiles/Emils.dir/Emils_Prototype/main.c.o	580070a2427a0558
+1	44	1669274695675367097	CMakeFiles/Emils.dir/Emils_Prototype/utilities.c.o	8b57927dca75545a
+1	42	1669274695672716833	CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o	6a219f9f3cd28af5
+1	23	1669274695653667902	CMakeFiles/Emils.dir/Emils_Prototype/settings.c.o	83cfc04e44de0dda
+29	63	1669015518929861162	P1_Prototype	db662a29aa984d9e
+1	139	1669286229106164881	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/distance.c.o	37a1975a204ee835
+2	50	1669364144944540579	CMakeFiles/Emils.dir/Emils_Prototype/menu.c.o	15a7b41579efac6a
+27	61	1669364805903081493	Emils	9aae02d714bebcaa
+0	139	1669286229105466712	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o	a9fdedfd8332e142
+1	140	1669286229108043637	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o	fb76704f5f348f94
+1	29	1669364832478843110	CMakeFiles/Emils.dir/Emils_Prototype/main.c.o	580070a2427a0558
+29	61	1669364832511654964	Emils	9aae02d714bebcaa
+0	142	1669370831122162380	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o	a9fdedfd8332e142
+1	142	1669370831123043508	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o	fb76704f5f348f94
+0	33	1669371224570058792	CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o	c2bdb4d85ae96c38
+34	76	1669371224613645371	Mathias2	f2e049b9a335be05
