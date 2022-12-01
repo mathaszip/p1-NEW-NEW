@@ -1,6 +1,6 @@
 #include "run_time.h"
 
-char userproducts[100][15];
+
 
 //The function run time uses all the different functions and holds all the data
 void run_time() {
@@ -13,6 +13,10 @@ void run_time() {
     groceries_list *ptrToAllStoreGroceries = all_store_groceries;
     ptrToAllStoreGroceries = open_files();
 
+    checkForInvalidProducts(ptrToAllStoreGroceries, user);
+
+    setOnSale(ptrToAllStoreGroceries);
+
     //Getting all groceries from each store
     store_t all_store_list[MAX_STORES];
     store_t *ptrToAllStoreList = all_store_list;
@@ -20,9 +24,26 @@ void run_time() {
 
     sumOfProducts(ptrToAllStoreGroceries, ptrToAllStoreList);
     bsortDesc(ptrToAllStoreList, MAX_STORES);
-    setOnSale(ptrToAllStoreGroceries);
 
     print(ptrToAllStoreGroceries, user, ptrToAllStoreList);
+}
+
+void checkForInvalidProducts(groceries_list list[], userdata user) {
+    int check = 0;
+    int j = 0;
+
+    for (int i = 0; i < MAX; i++) {
+        if (strcmp(user_groceries[j], list[1].name[i]) == 0) {
+            i = 0;
+            check += 1;
+            j++;
+        }
+    }
+
+    if (check != user.amount) {
+        printf("1 or more item in your shoppinglist is invalid. Please check for spelling mistakes!");
+        exit(EXIT_FAILURE);
+    }
 }
 
 void sumOfProducts(groceries_list list[], store_t store[]) {
@@ -32,10 +53,11 @@ void sumOfProducts(groceries_list list[], store_t store[]) {
     for (int i = 0; i < MAX_STORES; i++) {
         j = 0, sum = 0;
         for (int k = 0; k < MAX; k++) {
-            if (strcmp(user_groceries[j], list[i].name[k]) == 0) {
-                sum += list[i].cost[k];
-                j++;
-            }
+                if (strcmp(user_groceries[j], list[i].name[k]) == 0) {
+                    sum += list[i].cost[k];
+                    k = 0; // Resetting the loop, so we can find products before the found one
+                    j++;
+                }
         }
         store[i].sum = sum;
     }
@@ -51,8 +73,8 @@ void setOnSale(groceries_list list[]) {
 
 /* Return 0 and 1 with 75% and 25% probability, respectively, using the specified function and bitwise AND operator */
 int random2() {
-    int x = random();
-    int y = random();
+    int x = random1();
+    int y = random1();
 
     return (x & y);
 }
@@ -67,17 +89,30 @@ int random1()
 }
 
 int checkShoppingList(groceries_list list[], int store, int item, int list_item) {
+    if (findSaleProducts(list, store, item) == 0) {
+        return 0;
+    }
+
+    if (strcmp(user_groceries[list_item], list[store].name[item]) != 0) {
+        return 0;
+    }
+    else {
+        return 1;
+    }
+}
+
+/*int checkShoppingList(groceries_list list[], int store, int item, int list_item) {
     if (findSaleProducts(list, store, item)) {
-        if (strcmp(userproducts[list_item], list[store].name[item]) == 0) {
+        if (strcmp(user_groceries[list_item], list[store].name[item]) == 0) {
             return 1;
         } else {
             return 0;
         }
     }
-}
+}*/
 
 int findSaleProducts(groceries_list list[], int store, int item) {
-    if (list[store].onSale[item]) {
+    if (list[store].onSale[item] == 1) {
         return 1;
     }
     else {
@@ -126,6 +161,7 @@ int j;
                 if (checkShoppingList(grocery_list, i, k, j)) {
                     printf("\n%s is on sale for %lf DKK!", grocery_list[i].name[k], grocery_list[i].cost[k]);
                     j++;
+                    k = 0;
                 }
             }
         }

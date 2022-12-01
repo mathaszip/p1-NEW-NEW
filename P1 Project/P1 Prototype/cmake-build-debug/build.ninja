@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/cmake-build-debug/
+cmake_ninja_workdir = /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Emils
 
@@ -46,33 +46,33 @@ cmake_ninja_workdir = /Users/emilpriv/CLionProjects/Aalborg-University---Project
 
 build cmake_object_order_depends_target_Emils: phony || CMakeFiles/Emils.dir
 
-build CMakeFiles/Emils.dir/Emils_Prototype/main.c.o: C_COMPILER__Emils_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Emils$ Prototype/main.c || cmake_object_order_depends_target_Emils
+build CMakeFiles/Emils.dir/Emils_Prototype/main.c.o: C_COMPILER__Emils_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Emils$ Prototype/main.c || cmake_object_order_depends_target_Emils
   DEP_FILE = CMakeFiles/Emils.dir/Emils_Prototype/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Emils.dir
   OBJECT_FILE_DIR = CMakeFiles/Emils.dir/Emils_Prototype
 
-build CMakeFiles/Emils.dir/Emils_Prototype/menu.c.o: C_COMPILER__Emils_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Emils$ Prototype/menu.c || cmake_object_order_depends_target_Emils
+build CMakeFiles/Emils.dir/Emils_Prototype/menu.c.o: C_COMPILER__Emils_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Emils$ Prototype/menu.c || cmake_object_order_depends_target_Emils
   DEP_FILE = CMakeFiles/Emils.dir/Emils_Prototype/menu.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Emils.dir
   OBJECT_FILE_DIR = CMakeFiles/Emils.dir/Emils_Prototype
 
-build CMakeFiles/Emils.dir/Emils_Prototype/settings.c.o: C_COMPILER__Emils_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Emils$ Prototype/settings.c || cmake_object_order_depends_target_Emils
+build CMakeFiles/Emils.dir/Emils_Prototype/settings.c.o: C_COMPILER__Emils_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Emils$ Prototype/settings.c || cmake_object_order_depends_target_Emils
   DEP_FILE = CMakeFiles/Emils.dir/Emils_Prototype/settings.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Emils.dir
   OBJECT_FILE_DIR = CMakeFiles/Emils.dir/Emils_Prototype
 
-build CMakeFiles/Emils.dir/Emils_Prototype/utilities.c.o: C_COMPILER__Emils_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Emils$ Prototype/utilities.c || cmake_object_order_depends_target_Emils
+build CMakeFiles/Emils.dir/Emils_Prototype/utilities.c.o: C_COMPILER__Emils_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Emils$ Prototype/utilities.c || cmake_object_order_depends_target_Emils
   DEP_FILE = CMakeFiles/Emils.dir/Emils_Prototype/utilities.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Emils.dir
   OBJECT_FILE_DIR = CMakeFiles/Emils.dir/Emils_Prototype
 
-build CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o: C_COMPILER__Emils_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Emils$ Prototype/memory.c || cmake_object_order_depends_target_Emils
+build CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o: C_COMPILER__Emils_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Emils$ Prototype/memory.c || cmake_object_order_depends_target_Emils
   DEP_FILE = CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Emils.dir
   OBJECT_FILE_DIR = CMakeFiles/Emils.dir/Emils_Prototype
 
@@ -85,7 +85,7 @@ build CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o: C_COMPILER__Emils_Debug /
 # Link the executable Emils
 
 build Emils: C_EXECUTABLE_LINKER__Emils_Debug CMakeFiles/Emils.dir/Emils_Prototype/main.c.o CMakeFiles/Emils.dir/Emils_Prototype/menu.c.o CMakeFiles/Emils.dir/Emils_Prototype/settings.c.o CMakeFiles/Emils.dir/Emils_Prototype/utilities.c.o CMakeFiles/Emils.dir/Emils_Prototype/memory.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Emils.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -101,27 +101,27 @@ build Emils: C_EXECUTABLE_LINKER__Emils_Debug CMakeFiles/Emils.dir/Emils_Prototy
 
 build cmake_object_order_depends_target_Mathias: phony || CMakeFiles/Mathias.dir
 
-build CMakeFiles/Mathias.dir/Mathiases_Prototype/main.c.o: C_COMPILER__Mathias_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype/main.c || cmake_object_order_depends_target_Mathias
+build CMakeFiles/Mathias.dir/Mathiases_Prototype/main.c.o: C_COMPILER__Mathias_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype/main.c || cmake_object_order_depends_target_Mathias
   DEP_FILE = CMakeFiles/Mathias.dir/Mathiases_Prototype/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias.dir/Mathiases_Prototype
 
-build CMakeFiles/Mathias.dir/Mathiases_Prototype/file_management.c.o: C_COMPILER__Mathias_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype/file_management.c || cmake_object_order_depends_target_Mathias
+build CMakeFiles/Mathias.dir/Mathiases_Prototype/file_management.c.o: C_COMPILER__Mathias_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype/file_management.c || cmake_object_order_depends_target_Mathias
   DEP_FILE = CMakeFiles/Mathias.dir/Mathiases_Prototype/file_management.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias.dir/Mathiases_Prototype
 
-build CMakeFiles/Mathias.dir/Mathiases_Prototype/distance.c.o: C_COMPILER__Mathias_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype/distance.c || cmake_object_order_depends_target_Mathias
+build CMakeFiles/Mathias.dir/Mathiases_Prototype/distance.c.o: C_COMPILER__Mathias_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype/distance.c || cmake_object_order_depends_target_Mathias
   DEP_FILE = CMakeFiles/Mathias.dir/Mathiases_Prototype/distance.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias.dir/Mathiases_Prototype
 
-build CMakeFiles/Mathias.dir/Mathiases_Prototype/run_time.c.o: C_COMPILER__Mathias_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype/run_time.c || cmake_object_order_depends_target_Mathias
+build CMakeFiles/Mathias.dir/Mathiases_Prototype/run_time.c.o: C_COMPILER__Mathias_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype/run_time.c || cmake_object_order_depends_target_Mathias
   DEP_FILE = CMakeFiles/Mathias.dir/Mathiases_Prototype/run_time.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias.dir/Mathiases_Prototype
 
@@ -134,7 +134,7 @@ build CMakeFiles/Mathias.dir/Mathiases_Prototype/run_time.c.o: C_COMPILER__Mathi
 # Link the executable Mathias
 
 build Mathias: C_EXECUTABLE_LINKER__Mathias_Debug CMakeFiles/Mathias.dir/Mathiases_Prototype/main.c.o CMakeFiles/Mathias.dir/Mathiases_Prototype/file_management.c.o CMakeFiles/Mathias.dir/Mathiases_Prototype/distance.c.o CMakeFiles/Mathias.dir/Mathiases_Prototype/run_time.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Mathias.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -150,27 +150,27 @@ build Mathias: C_EXECUTABLE_LINKER__Mathias_Debug CMakeFiles/Mathias.dir/Mathias
 
 build cmake_object_order_depends_target_Mathias2: phony || CMakeFiles/Mathias2.dir
 
-build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o: C_COMPILER__Mathias2_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/main.c || cmake_object_order_depends_target_Mathias2
+build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o: C_COMPILER__Mathias2_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/main.c || cmake_object_order_depends_target_Mathias2
   DEP_FILE = CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias2.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias2.dir/Mathiases_Prototype2
 
-build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o: C_COMPILER__Mathias2_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/file_management.c || cmake_object_order_depends_target_Mathias2
+build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o: C_COMPILER__Mathias2_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/file_management.c || cmake_object_order_depends_target_Mathias2
   DEP_FILE = CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias2.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias2.dir/Mathiases_Prototype2
 
-build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/distance.c.o: C_COMPILER__Mathias2_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/distance.c || cmake_object_order_depends_target_Mathias2
+build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/distance.c.o: C_COMPILER__Mathias2_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/distance.c || cmake_object_order_depends_target_Mathias2
   DEP_FILE = CMakeFiles/Mathias2.dir/Mathiases_Prototype2/distance.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias2.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias2.dir/Mathiases_Prototype2
 
-build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o: C_COMPILER__Mathias2_Debug /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/run_time.c || cmake_object_order_depends_target_Mathias2
+build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o: C_COMPILER__Mathias2_Debug /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1$ Project/P1$ Prototype/Mathiases$ Prototype2/run_time.c || cmake_object_order_depends_target_Mathias2
   DEP_FILE = CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Mathias2.dir
   OBJECT_FILE_DIR = CMakeFiles/Mathias2.dir/Mathiases_Prototype2
 
@@ -183,7 +183,7 @@ build CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o: C_COMPILER__Mat
 # Link the executable Mathias2
 
 build Mathias2: C_EXECUTABLE_LINKER__Mathias2_Debug CMakeFiles/Mathias2.dir/Mathiases_Prototype2/main.c.o CMakeFiles/Mathias2.dir/Mathiases_Prototype2/file_management.c.o CMakeFiles/Mathias2.dir/Mathiases_Prototype2/distance.c.o CMakeFiles/Mathias2.dir/Mathiases_Prototype2/run_time.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Mathias2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -195,7 +195,7 @@ build Mathias2: C_EXECUTABLE_LINKER__Mathias2_Debug CMakeFiles/Mathias2.dir/Math
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1 Project/P1 Prototype/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -206,7 +206,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1 Project/P1 Prototype/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1 Project/P1 Prototype" -B"/Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1 Project/P1 Prototype/cmake-build-debug"
+  COMMAND = cd "/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype" -B"/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -222,7 +222,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/emilpriv/CLionProjects/Aalborg-University---Projects/P1 Project/P1 Prototype/cmake-build-debug
+# Folder: /Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug
 
 build all: phony Emils Mathias Mathias2
 

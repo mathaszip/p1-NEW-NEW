@@ -19,3 +19,4 @@ void setOnSale(groceries_list list[]);
 int random1();
 int random2();
 int checkShoppingList(groceries_list list[], int store, int item, int list_item);
+void checkForInvalidProducts(groceries_list list[], userdata user);
