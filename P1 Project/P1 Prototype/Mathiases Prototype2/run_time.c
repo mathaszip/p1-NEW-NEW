@@ -136,7 +136,7 @@ void print_promotions(groceries_list list[], int store) {
         if (strcmp(user_groceries[j], list[store].name[i]) == 0) {
             j++;
                 if (list[store].onSale[i] == 1) {
-                    printf("%s is on sale for %lf DKK!\n", list[store].name[i], list[store].cost[i]);
+                    printf("%s is on sale for %.2lf DKK!\n", list[store].name[i], list[store].cost[i]);
                 }
             i = 0;
         }
