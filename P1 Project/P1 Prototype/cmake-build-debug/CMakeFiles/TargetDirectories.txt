@@ -1,5 +1,5 @@
-/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Emils.dir
-/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Mathias.dir
-/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Mathias2.dir
-/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mathiaslarsen/CLionProjects/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+K:/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Emils.dir
+K:/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Mathias.dir
+K:/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/Mathias2.dir
+K:/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/p1-NEW-NEW/P1 Project/P1 Prototype/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -7,6 +7,7 @@
 #include "distance.h"
 #include "file_management.h"
 
+
 char user_groceries[100][15];
 
 int create_shoppinglist(FILE *list);
@@ -20,3 +21,4 @@ int random1();
 int random2();
 int checkShoppingList(groceries_list list[], int store, int item, int list_item);
 void checkForInvalidProducts(groceries_list list[], userdata user);
+void print_promotions(groceries_list list[], int store);
